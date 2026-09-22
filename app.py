@@ -23,6 +23,11 @@ st.set_page_config(
     menu_items={'About': "Ruang Teduh Perpustakaan = Loker Umum DKI Jakarta - Belum jadi Matahari - Fungsi ke masyarakat - Pembatasan cuma wilayah 5 DKI"}
 )
 
+# GOOGLE VERIFICATION - BIAR GOOGLE HOMEPAGE MAU INDEX - KODE LU: k1KCE7SRCPe0rg3Bkc0KhOkuLXdBIeQrlg0RUrjTAfM
+st.html('<meta name="google-site-verification" content="k1KCE7SRCPe0rg3Bkc0KhOkuLXdBIeQrlg0RUrjTAfM" />')
+st.html('<meta name="description" content="Ruang Teduh Perpustakaan Loker DKI Jakarta - Loker menyeluruh umum FNB Logistik Kantoran Garmen Retail - Judul bebas pembatasan cuma wilayah 5 DKI Pusat Barat Timur Selatan Utara - NIK 31xxxx Radius 10km Onsite Only" />')
+st.html('<meta name="keywords" content="loker DKI Jakarta, loker Jakarta Pusat, loker Jakarta Barat, loker Jakarta Timur, loker Jakarta Selatan, loker Jakarta Utara, ruang teduh perpustakaan, loker FNB, loker logistik, loker kantoran, loker garmen" />')
+
 # SESSION CLEAN
 if "member_data" not in st.session_state:
     st.session_state.member_data = {}
